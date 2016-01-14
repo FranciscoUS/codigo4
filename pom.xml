@@ -17,6 +17,20 @@
   <profiles>
     <profile>
       <id>P1</id>
+      
+      <package>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                	<finalName>true</finalName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </package>
+      
     </profile>
   </profiles>
  
